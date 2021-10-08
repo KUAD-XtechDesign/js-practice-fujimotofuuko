@@ -10,7 +10,7 @@ $("#button01").on("click",function(){
     $("#content").text("こんにちは！");
 })
 
-$("#button02".on("click",function(){
+$("#button02").on("click",function(){
     $("#content").text(txt1);
 })
 
@@ -19,12 +19,12 @@ $("#button03").on("click",function(){
 
 })
 
- $("#button04").on("click",function(){
-        $("#content").text(num1 + num2);
+$("#button04").on("click",function(){
+    $("#content").text(num1 + num2);
 })
 
- $("#button05").on("click",function(){
-            $("#content").text(num1 + "あ" + num2);
+$("#button05").on("click",function(){
+   $("#content").text(num1 + "あ" + num2);
 
 })
 
